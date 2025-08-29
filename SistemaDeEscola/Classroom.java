@@ -26,7 +26,7 @@ public class Classroom {
         return this.students.size();
     }
     public String getClassDetails(){
-        System.out.println("\nClass name: "+ getClassName() +
+        System.out.println("Class name: "+ getClassName() +
                 "\nClass teacher: "+ getTeacher().name +
                 "\nAll Students: ");
         for (Student s : students) {

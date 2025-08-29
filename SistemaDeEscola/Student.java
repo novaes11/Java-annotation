@@ -153,7 +153,7 @@ public class Student extends Person{
 
     public String getAcademicStatus(){
         if(hasPassed() && hasMinimumAttendance()){
-            return "\nRegistration number: "+ getUniqueIdentifier() + "\nInicials: "+ getInicials() + "\nCourse: "+ getCourse() +"\nYear: "+ getYear() + "\nSituation: Approved";
+            return "Registration number: "+ getUniqueIdentifier() + "\nInicials: "+ getInicials() + "\nCourse: "+ getCourse() +"\nYear: "+ getYear() + "\nSituation: Approved";
         }else {
             if (!hasPassed() && !hasMinimumAttendance()){
                 return "\nRegistration number: "+ getUniqueIdentifier() + "\nInicials: "+ getInicials() +"\nCourse: "+ getCourse() +"\nYear: "+ getYear() + "\nSituation: Reproved\nReason: Minimum attendance and average grade not reached\n" + "Contact: " + getFormattedEmail()+ "\nWarning: " + getRoleDescription();

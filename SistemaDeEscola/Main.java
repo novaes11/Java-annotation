@@ -409,71 +409,71 @@ public class Main {
         message = st3.getAcademicStatus();
         System.out.println(message);
 
-        System.out.println("\n====CLASS DETAILS====");
+        System.out.println("\n====CLASS DETAILS====\n");
 
         for (Student s : students) {
             c1.addStudent(s);
         }
-        String classdetail = c1.getClassDetails();
-        System.out.println(classdetail);
         message = c1.getTeacher().getClassroomInfo();
         System.out.println(message);
+        String classdetail = c1.getClassDetails();
+        System.out.println(classdetail);
 
         for (Student s : students) {
             c2.addStudent(s);
         }
-        classdetail = c2.getClassDetails();
-        System.out.println(classdetail);
         message = c2.getTeacher().getClassroomInfo();
         System.out.println(message);
+        classdetail = c2.getClassDetails();
+        System.out.println(classdetail);
 
         for (Student s : students) {
             c3.addStudent(s);
         }
-        classdetail = c3.getClassDetails();
-        System.out.println(classdetail);
         message = c3.getTeacher().getClassroomInfo();
         System.out.println(message);
+        classdetail = c3.getClassDetails();
+        System.out.println(classdetail);
 
         for (Student s : students) {
             c4.addStudent(s);
         }
-        classdetail = c4.getClassDetails();
-        System.out.println(classdetail);
         message = c4.getTeacher().getClassroomInfo();
         System.out.println(message);
+        classdetail = c4.getClassDetails();
+        System.out.println(classdetail);
 
         for (Student s : students) {
             c5.addStudent(s);
         }
-        classdetail = c5.getClassDetails();
-        System.out.println(classdetail);
         message = c5.getTeacher().getClassroomInfo();
         System.out.println(message);
+        classdetail = c5.getClassDetails();
+        System.out.println(classdetail);
 
         for (Student s : students) {
             c6.addStudent(s);
         }
-        classdetail = c6.getClassDetails();
-        System.out.println(classdetail);
         message = c6.getTeacher().getClassroomInfo();
         System.out.println(message);
+        classdetail = c6.getClassDetails();
+        System.out.println(classdetail);
 
         for (Student s : students) {
             c7.addStudent(s);
         }
-        classdetail = c7.getClassDetails();
-        System.out.println(classdetail);
         message = c7.getTeacher().getClassroomInfo();
         System.out.println(message);
+        classdetail = c7.getClassDetails();
+        System.out.println(classdetail);
 
         for (Student s : students) {
             c8.addStudent(s);
         }
-        classdetail = c8.getClassDetails();
-        System.out.println(classdetail);
         message = c8.getTeacher().getClassroomInfo();
         System.out.println(message);
+        classdetail = c8.getClassDetails();
+        System.out.println(classdetail);
 
 
         System.out.println("\n====REGISTERED EMPLOYEES====");

@@ -9,17 +9,22 @@ public class Student extends Person{
     String roleDescription;
 
     public Student(String registrationNumber){
+        if (registrationNumber == null || registrationNumber.trim().equals(" ")) throw new IllegalArgumentException("Invalid registration number! Registration number can't be null or equals 'null'.");
         super(null, 0, null);
         this.registrationNumber = registrationNumber;
     }
 
     public Student(String registrationNumber, String course){
+        if (registrationNumber == null || registrationNumber.trim().equals(" ")) throw new IllegalArgumentException("Invalid registration number! Registration number can't be null or equals 'null'.");
+        if (course == null || course.trim().equals(" ")) throw new IllegalArgumentException("Invalid course! Course can't be null or equals 'null'.");
         super(null, 0, null);
         this.registrationNumber = registrationNumber;
         this.course = course;
     }
 
     public Student(String name, int age, String email, String registrationNumber, String course){
+        if (registrationNumber == null || registrationNumber.trim().equals(" ")) throw new IllegalArgumentException("Invalid registration number! Registration number can't be null or equals 'null'.");
+        if (course == null || course.trim().equals(" ")) throw new IllegalArgumentException("Invalid course! Course can't be null or equals 'null'.");
         super(name, age, email);
         this.registrationNumber = registrationNumber;
         this.course = course;
@@ -28,28 +33,33 @@ public class Student extends Person{
     // setters
     @Override
     public Person setName(String name){
+        if (name == null || name.trim().equals(" ")) throw new IllegalArgumentException("Invalid name! Name can't be null or equals 'null'.");
         this.name = name;
         return this;
     }
 
     @Override
     public Person setAge(int age){
+        if (age < 0 || age > 120) throw new IllegalArgumentException("Invalid age! Age can't be negative or bigger then 120.");
         this.age = age;
         return this;
     }
 
     @Override
     public Person setEmail(String email){
+        if (email == null || email.trim().equals(" ")) throw new IllegalArgumentException("Invalid email! Email can't be null or equals 'null'.");
         this.email = email;
         return this;
     }
 
     public Student setRegistrationNumber(String registrationNumber) {
+        if (registrationNumber == null || registrationNumber.trim().equals(" ")) throw new IllegalArgumentException("Invalid registration number! Registration number can't be null or equals 'null'.");
         this.registrationNumber = registrationNumber;
         return this;
     }
 
     public Student setCourse(String course) {
+        if (course == null || course.trim().equals(" ")) throw new IllegalArgumentException("Invalid course! Course can't be null or equals 'null'.");
         this.course = course;
         return this;
     }

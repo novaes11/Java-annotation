@@ -5,6 +5,7 @@ public abstract class Person {
     protected int age;
     protected String email;
     public Person(String name, int age, String email) {
+        if (age < 0 || age > 120) throw new IllegalArgumentException("Invalid age! Age can't be negative or bigger then 120.");
         this.name = name;
         this.age = age;
         this.email = email;

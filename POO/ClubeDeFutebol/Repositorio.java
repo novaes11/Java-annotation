@@ -1,4 +1,4 @@
-package ClubeDeFutebol;
+package POO.ClubeDeFutebol;
 
 
 import java.util.ArrayList;

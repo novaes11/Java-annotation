@@ -1,4 +1,4 @@
-package ClubeDeFutebol;
+package POO.ClubeDeFutebol;
 
 
 public class Jogador {

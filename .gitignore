@@ -1,0 +1,14 @@
+# IntelliJ IDEA
+.idea/
+*.iml
+out/
+gen/
+
+# Compilados
+*.class
+*.jar
+*.war
+*.ear
+
+# Log files
+*.log

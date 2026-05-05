@@ -1,4 +1,4 @@
-package POO.ClubeDeFutebol.SistemaDeEscola;
+package POO.SistemaDeEscola;
 
 public abstract class Person {
     protected String name;

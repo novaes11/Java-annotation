@@ -1,6 +1,6 @@
-package Apresentador;
+package AlgoritmosDeOrdenação.Apresentador;
 
-import Resultados.Resultado;
+import AlgoritmosDeOrdenação.Resultados.Resultado;
 
 import java.util.List;
 import java.util.stream.Collectors;

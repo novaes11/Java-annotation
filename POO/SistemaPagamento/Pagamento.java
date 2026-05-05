@@ -1,4 +1,4 @@
-package SistemaPagamento;
+package POO.SistemaPagamento;
 
 public interface Pagamento {
     String dataHoraLimpa = GerenciadorTimestamp.getTimestampFormatado();

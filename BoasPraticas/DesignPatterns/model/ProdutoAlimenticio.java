@@ -1,6 +1,6 @@
-package DesignPatterns.model;
+package BoasPraticas.DesignPatterns.model;
 
-import DesignPatterns.strategy.EstrategiaDesconto;
+import BoasPraticas.DesignPatterns.strategy.EstrategiaDesconto;
 
 public class ProdutoAlimenticio extends Produto {
     private String validade;

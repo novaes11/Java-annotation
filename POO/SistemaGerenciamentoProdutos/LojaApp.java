@@ -1,4 +1,4 @@
-package SistemaGerenciamentoProdutos;
+package POO.SistemaGerenciamentoProdutos;
 
 import java.util.Arrays;
 import java.util.List;

@@ -1,4 +1,4 @@
-package Acervo;
+package BoasPraticas.Acervo;
 
 import java.util.Objects;
 

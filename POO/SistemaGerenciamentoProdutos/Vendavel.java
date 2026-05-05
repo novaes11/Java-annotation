@@ -1,4 +1,4 @@
-package SistemaGerenciamentoProdutos;
+package POO.SistemaGerenciamentoProdutos;
 
 /**
  * Interface que define o contrato para objetos que podem ser comercializados no sistema.

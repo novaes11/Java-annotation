@@ -1,9 +1,10 @@
-import Analise.Analisador;
-import Apresentador.ApresentadorConsole;
-import Apresentador.ApresentadorResultados;
-import GeradorDeVetores.GeradorDeVetores;
-import Resultados.Resultado;
-import metodosDeOrdenação.*;
+package AlgoritmosDeOrdenação;
+
+import AlgoritmosDeOrdenação.Analise.Analisador;
+import AlgoritmosDeOrdenação.Apresentador.ApresentadorConsole;
+import AlgoritmosDeOrdenação.Apresentador.ApresentadorResultados;
+import AlgoritmosDeOrdenação.MetodosDeOrdenação.*;
+import AlgoritmosDeOrdenação.Resultados.Resultado;
 
 import java.util.List;
 
@@ -23,7 +24,7 @@ import java.util.List;
  *
  * @author João Vitor Novaes
  */
-public class Main {
+public class OrdenacaoMain {
 
     public static void main(String[] args) {
         // 1. Configuração (Criação das Dependências)

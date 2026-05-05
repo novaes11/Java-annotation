@@ -1,5 +1,7 @@
-import Acervo.Biblioteca;
-import Menu.Menu;
+package BoasPraticas;
+
+import BoasPraticas.Acervo.Biblioteca;
+import BoasPraticas.Menu.Menu;
 
 /**
  * Ponto de entrada para o Sistema de Gerenciamento de Biblioteca.
@@ -13,7 +15,7 @@ import Menu.Menu;
  * @author João Novaes, Andrey Marucci, João Szczypior, Enzo Schmidt, João Camargo, Rafael Vasconcelos e Henrique Cavalari
  * @version 1.0
  */
-public class Main {
+public class BoasPraticasMain {
 
     /**
      * Método principal que inicializa as dependências fundamentais do sistema e

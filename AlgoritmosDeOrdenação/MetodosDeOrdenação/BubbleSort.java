@@ -1,4 +1,4 @@
-package metodosDeOrdenação;
+package AlgoritmosDeOrdenação.MetodosDeOrdenação;
 
 /**
  * Implementação do algoritmo de ordenação Bubble Sort.

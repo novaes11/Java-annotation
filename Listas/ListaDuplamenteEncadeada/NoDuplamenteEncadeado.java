@@ -1,4 +1,4 @@
-package ListaDuplamenteEncadeada;
+package Listas.ListaDuplamenteEncadeada;
 
 public class NoDuplamenteEncadeado {
     private Integer conteudo;

@@ -1,4 +1,4 @@
-package ListaDuplamenteEncadeada;
+package Listas.ListaDuplamenteEncadeada;
 
 import java.util.Objects;
 

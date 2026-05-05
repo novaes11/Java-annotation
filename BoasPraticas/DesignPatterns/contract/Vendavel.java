@@ -1,4 +1,4 @@
-package DesignPatterns.contract;
+package BoasPraticas.DesignPatterns.contract;
 
 /**
  * Interface Vendavel - O contrato de comercialização.

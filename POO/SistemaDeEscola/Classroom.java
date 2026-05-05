@@ -1,4 +1,4 @@
-package POO.ClubeDeFutebol.SistemaDeEscola;
+package POO.SistemaDeEscola;
 
 import java.util.ArrayList;
 import java.util.List;

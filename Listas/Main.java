@@ -1,4 +1,6 @@
-import ListaDuplamenteEncadeada.ListaDuplamenteEncadeada;
+package Listas;
+
+import Listas.ListaDuplamenteEncadeada.ListaDuplamenteEncadeada;
 
 class main{
     static void main() {

@@ -1,7 +1,7 @@
-package SOLID;
+package BoasPraticas.SOLID;
 
-import SOLID.Biblioteca;
-import SOLID.LivroRepositorio;
+import BoasPraticas.SOLID.Biblioteca;
+import BoasPraticas.SOLID.LivroRepositorio;
 
 
 public class Main {

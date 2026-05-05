@@ -1,7 +1,7 @@
-package SOLID;
+package BoasPraticas.SOLID;
 
-import Acervo.Livro;
-import SOLID.LivroRepositorio;
+import BoasPraticas.Acervo.Livro;
+import BoasPraticas.SOLID.LivroRepositorio;
 
 import java.util.Collections;
 import java.util.List;

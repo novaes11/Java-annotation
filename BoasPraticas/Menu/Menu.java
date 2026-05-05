@@ -1,6 +1,6 @@
-package Menu;
+package BoasPraticas.Menu;
 
-import Acervo.Biblioteca;
+import BoasPraticas.Acervo.Biblioteca;
 import java.util.Scanner;
 import java.util.InputMismatchException;
 

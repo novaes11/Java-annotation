@@ -1,10 +1,10 @@
-package DesignPatterns.factory;
+package BoasPraticas.DesignPatterns.factory;
 
-import DesignPatterns.model.Produto;
-import DesignPatterns.model.ProdutoAlimenticio;
-import DesignPatterns.model.ProdutoEletronico;
-import DesignPatterns.strategy.DescontoAlimenticio;
-import DesignPatterns.strategy.DescontoEletronico;
+import BoasPraticas.DesignPatterns.model.Produto;
+import BoasPraticas.DesignPatterns.model.ProdutoAlimenticio;
+import BoasPraticas.DesignPatterns.model.ProdutoEletronico;
+import BoasPraticas.DesignPatterns.strategy.DescontoAlimenticio;
+import BoasPraticas.DesignPatterns.strategy.DescontoEletronico;
 
 public class ProdutoFactory {
     public static Produto criar(String tipo, String cod, String desc, double preco, String info) {

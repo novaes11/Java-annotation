@@ -1,4 +1,4 @@
-package SOLID;
+package BoasPraticas.SOLID;
 
 import java.util.Scanner;
 

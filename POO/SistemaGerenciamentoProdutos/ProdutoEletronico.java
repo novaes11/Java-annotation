@@ -1,4 +1,4 @@
-package SistemaGerenciamentoProdutos;
+package POO.SistemaGerenciamentoProdutos;
 
 /**
  * Representa um produto do tipo Eletrônico no sistema.

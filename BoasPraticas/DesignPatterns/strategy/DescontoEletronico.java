@@ -1,4 +1,4 @@
-package DesignPatterns.strategy;
+package BoasPraticas.DesignPatterns.strategy;
 
 public class DescontoEletronico implements EstrategiaDesconto {
     public double calcular(double preco, double percentual) {

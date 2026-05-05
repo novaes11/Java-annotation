@@ -1,8 +1,8 @@
-package Analise;
+package AlgoritmosDeOrdenação.Analise;
 
-import GeradorDeVetores.GeradorDeVetores;
-import Resultados.Resultado;
-import metodosDeOrdenação.Ordenador;
+import AlgoritmosDeOrdenação.GeradorDeVetores.GeradorDeVetores;
+import AlgoritmosDeOrdenação.Resultados.Resultado;
+import AlgoritmosDeOrdenação.MetodosDeOrdenação.Ordenador;
 
 import java.util.ArrayList;
 import java.util.Arrays;

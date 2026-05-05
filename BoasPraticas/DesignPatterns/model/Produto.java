@@ -1,7 +1,7 @@
-package DesignPatterns.model;
+package BoasPraticas.DesignPatterns.model;
 
-import DesignPatterns.contract.Vendavel;
-import DesignPatterns.strategy.EstrategiaDesconto;
+import BoasPraticas.DesignPatterns.contract.Vendavel;
+import BoasPraticas.DesignPatterns.strategy.EstrategiaDesconto;
 
 public abstract class Produto implements Vendavel {
     private String codigo;

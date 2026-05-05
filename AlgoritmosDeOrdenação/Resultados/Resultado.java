@@ -1,4 +1,4 @@
-package Resultados;
+package AlgoritmosDeOrdenação.Resultados;
 
 /**
  * Um record para armazenar os dados de um único resultado de teste de ordenação.

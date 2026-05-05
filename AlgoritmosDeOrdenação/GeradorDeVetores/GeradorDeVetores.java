@@ -1,4 +1,4 @@
-package GeradorDeVetores;
+package AlgoritmosDeOrdenação.GeradorDeVetores;
 
 import java.util.ArrayList;
 import java.util.Collections;

@@ -1,4 +1,4 @@
-package Pilha;
+package Listas.Pilha;
 
 public class PilhaDinamica {
     private No inicio;

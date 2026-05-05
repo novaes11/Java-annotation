@@ -1,4 +1,4 @@
-package SistemaGerenciamentoProdutos;
+package POO.SistemaGerenciamentoProdutos;
 
 /**
  * Classe abstrata que representa a base de um produto no sistema.

@@ -1,4 +1,4 @@
-package POO.ClubeDeFutebol.SistemaDeEscola;
+package POO.SistemaDeEscola;
 
 public class Employee extends Person{
     protected String employeeId;

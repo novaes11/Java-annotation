@@ -1,4 +1,4 @@
-package SistemaPagamento;
+package POO.SistemaPagamento;
 
 
 public class Cartao implements Pagamento{

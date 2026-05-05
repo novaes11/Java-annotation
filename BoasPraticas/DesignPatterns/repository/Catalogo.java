@@ -1,7 +1,7 @@
-package DesignPatterns.repository;
+package BoasPraticas.DesignPatterns.repository;
 
-import DesignPatterns.factory.ProdutoFactory;
-import DesignPatterns.model.Produto;
+import BoasPraticas.DesignPatterns.factory.ProdutoFactory;
+import BoasPraticas.DesignPatterns.model.Produto;
 
 import java.util.*;
 

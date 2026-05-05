@@ -1,4 +1,4 @@
-package POO.ClubeDeFutebol.SistemaDeEscola;
+package POO.SistemaDeEscola;
 
 public class EmployeeManager extends Employee {
     private double factorPayment = 2.5;

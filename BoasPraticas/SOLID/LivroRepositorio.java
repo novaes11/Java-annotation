@@ -1,6 +1,6 @@
-package SOLID;
+package BoasPraticas.SOLID;
 
-import Acervo.Livro;
+import BoasPraticas.Acervo.Livro;
 import java.util.List;
 
 /**

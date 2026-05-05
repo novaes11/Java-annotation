@@ -1,4 +1,4 @@
-package DesignPatterns.strategy;
+package BoasPraticas.DesignPatterns.strategy;
 
 public interface EstrategiaDesconto {
     double calcular(double preco, double percentual);

@@ -1,8 +1,8 @@
-package DesignPatterns;
+package BoasPraticas.DesignPatterns;
 
-import DesignPatterns.factory.ProdutoFactory;
-import DesignPatterns.repository.Catalogo;
-import DesignPatterns.model.Produto;
+import BoasPraticas.DesignPatterns.factory.ProdutoFactory;
+import BoasPraticas.DesignPatterns.repository.Catalogo;
+import BoasPraticas.DesignPatterns.model.Produto;
 import java.util.Scanner;
 import java.util.InputMismatchException;
 

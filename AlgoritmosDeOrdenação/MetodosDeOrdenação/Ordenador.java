@@ -1,4 +1,4 @@
-package metodosDeOrdenação;
+package AlgoritmosDeOrdenação.MetodosDeOrdenação;
 
 /**
  * Define o contrato para todos os algoritmos de ordenação implementados no projeto.

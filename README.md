@@ -7,11 +7,11 @@ Este repositório centraliza os algoritmos, estruturas de dados e conceitos fund
 O conteúdo está organizado por tópicos para facilitar a navegação:
 
 * **`AlgoritmosDeOrdenacao`**: Implementações de algoritmos clássicos (Bubble Sort, Quick Sort, Merge Sort, etc.) focando em complexidade e eficiência.
-* **`POO`**: Projetos focados nos pilares da Programação Orientada a Objetos (Abstração, Herança, Encapsulamento e Polimorfismo).
-* **`Listas`**: Manipulação de estruturas de dados lineares e dinâmicas.
-* **`BoasPraticas`**: Exemplos de código aplicando princípios de Clean Code e padrões de projeto.
+* **`src.POO`**: Projetos focados nos pilares da Programação Orientada a Objetos (Abstração, Herança, Encapsulamento e Polimorfismo).
+* **`src.Listas`**: Manipulação de estruturas de dados lineares e dinâmicas.
+* **`src.BoasPraticas`**: Exemplos de código aplicando princípios de Clean Code e padrões de projeto.
 * **`TransformacaoLinear`**: Aplicação prática de conceitos de Álgebra Linear e Matemática Computacional utilizando Java.
-* **`ConversorBinario`**: Lógica de conversão entre bases numéricas.
+* **`src.ConversorBinario`**: Lógica de conversão entre bases numéricas.
 
 ## 🛠️ Tecnologias e Ferramentas
 

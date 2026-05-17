@@ -6,9 +6,10 @@ package src.Arvores;
  */
 public class No {
 
-    Integer conteudo;
-    No esquerda;
-    No direita;
+    private Integer conteudo;
+    private No esquerda;
+    private No direita;
+    private No pai;
 
     /**
      * Construtor que inicializa um nó com um determinado conteúdo.
@@ -20,6 +21,7 @@ public class No {
         this.conteudo = conteudo;
         this.esquerda = null;
         this.direita = null;
+        this.pai = null;
     }
 
     /**
@@ -74,5 +76,14 @@ public class No {
      */
     public void setEsquerda(No esquerda) {
         this.esquerda = esquerda;
+    }
+
+    public No getPai() {
+        return pai;
+    }
+
+    public No setPai(No pai) {
+        this.pai = pai;
+        return this;
     }
 }

@@ -1,5 +1,7 @@
 package src.Arvores;
 
+import java.util.Objects;
+
 /**
  * Implementação de uma Árvore Binária de Busca.
  * Permite a inserção de elementos e a exibição em diferentes ordens de percurso.
@@ -42,6 +44,7 @@ public class ArvoreBinaria {
         if(no.getConteudo() > atual.getConteudo()) {
             if(atual.getDireita() == null) {
                 atual.setDireita(no);
+                no.setPai(atual);
                 return;
             } else {
                 inserirRecursivo(no, atual.getDireita());
@@ -49,6 +52,7 @@ public class ArvoreBinaria {
         } else {
             if(atual.getEsquerda() == null) {
                 atual.setEsquerda(no);
+                no.setPai(atual);
                 return;
             } else {
                 inserirRecursivo(no, atual.getEsquerda());
@@ -57,7 +61,7 @@ public class ArvoreBinaria {
     }
 
     /**
-     * Insere um nó na árvore de forma iterativa.
+     * Insere um nó na árvore de forma iterativa ja registrando o no Pai do elemento inserido.
      * Percorre a árvore a partir da raiz para encontrar o local de inserção.
      *
      * @param no O novo nó a ser inserido.
@@ -72,6 +76,7 @@ public class ArvoreBinaria {
                 if(no.getConteudo() > aux.getConteudo()) {
                     if(aux.getDireita() == null) {
                         aux.setDireita(no);
+                        no.setPai(aux);
                         return;
                     } else {
                         aux = aux.getDireita();
@@ -79,6 +84,7 @@ public class ArvoreBinaria {
                 } else {
                     if(aux.getEsquerda() == null) {
                         aux.setEsquerda(no);
+                        no.setPai(aux);
                         return;
                     } else {
                         aux = aux.getEsquerda();
@@ -101,6 +107,12 @@ public class ArvoreBinaria {
         }
     }
 
+    public void exibirArvore() {
+        System.out.println("--- Estrutura da Árvore ---");
+        exibir(this.raiz, 0);
+        System.out.println("---------------------------");
+    }
+
     /**
      * Exibe o conteúdo da árvore de acordo com o percurso especificado.
      *
@@ -119,6 +131,25 @@ public class ArvoreBinaria {
                 posOrdem(this.raiz);
                 break;
         }
+    }
+
+    private void exibir(No no, int nivel) {
+        // Condição de parada
+        if (no == null) {
+            return;
+        }
+
+        // Caminhará até os maiores valores, visto que vão para o topo do console
+        exibir(no.getDireita(), nivel + 1);
+
+        // Impressão e espaçamento do nó atual
+        for (int i = 0; i < nivel; i++) {
+            System.out.print("    "); // 4 espaços de indentação por nível
+        }
+        System.out.println(no.getConteudo());
+
+        // Caminhara até os menores valores, visto que vão para o fundo do console
+        exibir(no.getEsquerda(), nivel + 1);
     }
 
     /**
@@ -145,7 +176,7 @@ public class ArvoreBinaria {
             return;
         }
         emOrdem(no.getEsquerda());
-        System.out.println(no.getConteudo());
+        System.out.print(no.getConteudo() + " ");
         emOrdem(no.getDireita());
     }
 

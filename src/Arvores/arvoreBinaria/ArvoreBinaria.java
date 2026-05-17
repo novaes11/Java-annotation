@@ -1,4 +1,6 @@
-package src.Arvores;
+package src.Arvores.arvoreBinaria;
+
+import src.Arvores.no.No;
 
 import java.util.Objects;
 

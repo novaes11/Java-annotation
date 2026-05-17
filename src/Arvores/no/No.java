@@ -1,4 +1,4 @@
-package src.Arvores;
+package src.Arvores.no;
 
 /**
  * Representa um nó em uma árvore binária, contendo um valor inteiro e

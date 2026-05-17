@@ -1,5 +1,7 @@
 package src.Arvores;
 
+import src.Arvores.arvoreBinaria.ArvoreBinaria;
+
 /**
  * Classe principal para demonstrar a funcionalidade da Árvore Binária.
  */

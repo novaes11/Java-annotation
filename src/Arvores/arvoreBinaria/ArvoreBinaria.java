@@ -9,6 +9,9 @@ import java.util.Objects;
  * Permite a inserção de elementos e a exibição em diferentes ordens de percurso.
  */
 public class ArvoreBinaria {
+    /**
+     * A raiz da árvore binária.
+     */
     No raiz;
 
     /**
@@ -96,6 +99,11 @@ public class ArvoreBinaria {
         }
     }
 
+    /**
+     * Remove um nó da árvore com o conteúdo especificado.
+     *
+     * @param conteudo O conteúdo do nó a ser removido.
+     */
     public void removerNo(Integer conteudo){
         No aux = this.raiz;
         // Antes de remover, verifica se a arvore esta vazia
@@ -108,6 +116,12 @@ public class ArvoreBinaria {
         removerNoRecursivamente(this.raiz, conteudo);
     }
 
+    /**
+     * Método auxiliar recursivo para remover um nó.
+     *
+     * @param no O nó atual na busca recursiva.
+     * @param busca O valor a ser removido.
+     */
     private void removerNoRecursivamente(No no, Integer busca) {
         // Condicao de parada
         if (no == null) {
@@ -192,6 +206,9 @@ public class ArvoreBinaria {
         }
     }
 
+    /**
+     * Exibe a estrutura da árvore no console.
+     */
     public void exibirArvore() {
         System.out.println("--- Estrutura da Árvore ---");
         exibir(this.raiz, 0);
@@ -218,6 +235,12 @@ public class ArvoreBinaria {
         }
     }
 
+    /**
+     * Método auxiliar recursivo para exibir a estrutura da árvore.
+     *
+     * @param no O nó atual.
+     * @param nivel O nível do nó na árvore (usado para indentação).
+     */
     private void exibir(No no, int nivel) {
         // Condição de parada
         if (no == null) {
